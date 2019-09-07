@@ -1,0 +1,22 @@
+function callbackFunction(){pcsid=pushcrew.subscriberId,0!=pcsid&&-1!=pcsid&&(cf_uvid=readCookie("cf_uvid"),void 0!=cf_uvid&&void 0==readCookie("pushcrewsub")&&(user_id=$("#user-id").val(),app_domain="https://"+$('meta[property="cf:app_domain"]').attr("content"),trackPath="/v1/track_pushcrew",trackUrl=app_domain+trackPath,data={user_id:user_id,cf_uvid:cf_uvid,pcsid:pcsid},$.ajax({url:trackUrl,data:data,success:function(){console.log("success"),createCookie("pushcrewsub",!0,1)},dataType:"html"})))}window._pcq=window._pcq||[],_pcq.push(["APIReady",callbackFunction]),_pcq.push(["subscriptionSuccessCallback",callbackFunction]);
+/*
+     FILE ARCHIVED ON 00:08:28 Sep 23, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:18:28 Mar 31, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 106.388 (3)
+  esindex: 0.007
+  captures_list: 154.15
+  CDXLines.iter: 11.281 (3)
+  PetaboxLoader3.datanode: 171.966 (5)
+  exclusion.robots: 0.182
+  exclusion.robots.policy: 0.158
+  RedisCDXSource: 18.224
+  PetaboxLoader3.resolve: 110.883 (2)
+  load_resource: 207.255
+*/
